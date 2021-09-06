@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title> 课表 </title>
+    <style type="text/css">
+        /**
+        页面头部
+        **/
+        .cv-page-header {
+            position: relative;
+            width: 100%;
+            color: #fff;
+            padding: 8px 32px;
+            z-index: 100;
+            box-sizing: border-box;
+        }
+
+        .cv-page-header>img {
+            float: left;
+            width: 202px;
+            height: 38px;
+        }
+
+        .cv-bg-color-primary {
+            background-color: #2655c8;
+        }
+
+        .cv-clearfix-child:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .my-course {
+            margin: 20px;
+        }
+
+        .curriculum .cv-caption-text {
+            font-size: 12px;
+            color: #bbb;
+            line-height: 20px;
+        }
+
+        .curriculum .table-container {
+            width: 100%;
+            overflow: auto;
+        }
+
+        .curriculum .curriculum-table {
+            width: 100%;
+            min-width: 700px;
+            table-layout: fixed;
+            border-top: 1px solid #e0e0f5;
+            border-left: 1px solid #e0e0f5;
+            border-bottom: 1px solid #e0e0f5;
+        }
+
+        .curriculum .curriculum-table th {
+            padding: 4px 8px;
+            border-right: 1px solid #e0e0f5;
+            border-bottom: 1px solid #e0e0f5;
+            background: #e9f1fb;
+        }
+
+        .curriculum .curriculum-table td {
+            padding: 4px 8px;
+            border-right: 1px solid #e0e0f5;
+            border-bottom: 1px solid #e0e0f5;
+            height: 40px;
+        }
+
+        .curriculum .curriculum-table .first {
+            width: 55px;
+        }
+
+        .curriculum .curriculum-table .weekItem {
+            width: 14.3%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main curriculum">
+        <header class="cv-page-header cv-bg-color-primary cv-clearfix-child"><img src="logo-mini.png">
+        </header>
+        <div style="min-height: 614px;">
+            <div class="my-course">
+                <h2>我的课表</h2>
+                <div class="cv-caption-text">2021-2022学年1学期</div>
+                <div class="table-container">
+                    <table class="curriculum-table">
+                        <tbody>
+                            <!-- 行的表头 -->
+                            <tr>
+                                <th class="first">节次/星期</th>
+                                <th class="weekItem">星期一</th>
+                                <th class="weekItem">星期二</th>
+                                <th class="weekItem">星期三</th>
+                                <th class="weekItem">星期四</th>
+                                <th class="weekItem">星期五</th>
+                                <th class="weekItem">星期六</th>
+                                <th class="weekItem">星期日</th>
+                            </tr>
+                            <tr>
+                                <!-- 第一节整行单元格 -->
+                                <td class="jcTd">第一节</td>
+                                <td rowspan="8" data-ksjc="1" data-jsjc="8" data-skxq="1" class="itemTd">
+                                    <!-- 跨8行，1到8，周一 -->
+                                    <div class="sjp-item">
+                                        <div><span>电工与电子综合实训-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>18周 1-8节</div>
+                                        <div></div>
+                                        <div>蔡大华</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>电工与电子综合实训-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>17周 1-8节</div>
+                                        <div></div>
+                                        <div>蔡大华</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>工程力学-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>1-12周 1-2节</div>
+                                        <div>G3践行楼208</div>
+                                        <div>张长英</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>典型产品拆装测绘综合实训Ⅰ-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>14周 5-8节</div>
+                                        <div>G1躬行楼513</div>
+                                        <div>李萍萍</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>马克思主义基本原理概论-02</span>
+                                            <!---->
+                                        </div>
+                                        <div>1-11周,15-16周 5-6节</div>
+                                        <div>乐群楼(教一)305</div>
+                                        <div>周秋明</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>C语言程序设计-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>1-2周,4-11周,15-16周 7-8节</div>
+                                        <div>G1躬行楼509</div>
+                                        <div>袁杰</div>
+                                    </div>
+                                </td>
+                                <td rowspan="8" data-ksjc="1" data-jsjc="8" data-skxq="2" class="itemTd">
+                                    <!-- 跨8行，1到8，周二 -->
+                                    <div class="sjp-item">
+                                        <div><span>电工与电子综合实训-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>18周 1-6节</div>
+                                        <div>G3践行楼307A</div>
+                                        <div>蔡大华</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>电工与电子综合实训-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>17周 1-6节</div>
+                                        <div>G3践行楼307A</div>
+                                        <div>蔡大华</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>大学物理Ⅰ(2)-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>1周,4-13周,15周 1-2节</div>
+                                        <div>乐群楼(教一)107</div>
+                                        <div>傅美欢</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>大学英语Ⅰ(3)-03</span>
+                                            <!---->
+                                        </div>
+                                        <div>1周,4-12周,15-16周 3-4节</div>
+                                        <div>乐群楼(教一)201</div>
+                                        <div>刘欣娟</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>典型产品拆装测绘综合实训Ⅰ-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>14周 5-8节</div>
+                                        <div>G1躬行楼513</div>
+                                        <div>李萍萍</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>电工技术-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>1-12周 5-6节</div>
+                                        <div>G3践行楼311</div>
+                                        <div>蔡大华</div>
+                                    </div>
+                                </td>
+                                <td rowspan="4" data-ksjc="1" data-jsjc="4" data-skxq="3" class="itemTd">
+                                    <!-- 跨四行，1到4，周三 -->
+                                    <div class="sjp-item">
+                                        <div><span>典型产品拆装测绘综合实训Ⅰ-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>14周 1-2节</div>
+                                        <div>G1躬行楼513</div>
+                                        <div>李萍萍</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>电工与电子综合实训-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>18周 1-4节</div>
+                                        <div>G3践行楼307A</div>
+                                        <div>蔡大华</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>电工与电子综合实训-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>17周 1-4节</div>
+                                        <div>G3践行楼307A</div>
+                                        <div>蔡大华</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>电工技术-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>1-12周 1-2节</div>
+                                        <div>G3践行楼311</div>
+                                        <div>蔡大华</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>典型产品拆装测绘综合实训Ⅰ-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>14周 3-4节</div>
+                                        <div>G1躬行楼513</div>
+                                        <div>李萍萍</div>
+                                    </div>
+                                </td>
+                                <td rowspan="4" data-ksjc="1" data-jsjc="4" data-skxq="4" class="itemTd">
+                                    <!-- 跨四行，1到4，周四 -->
+                                    <div class="sjp-item">
+                                        <div><span>典型产品拆装测绘综合实训Ⅰ-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>14周 1-4节</div>
+                                        <div>G1躬行楼515</div>
+                                        <div>李萍萍</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>C语言程序设计-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>1-2周,4-11周,15-16周 1-2节</div>
+                                        <div>G1躬行楼509</div>
+                                        <div>袁杰</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>工程力学-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>1-12周 3-4节</div>
+                                        <div>G3践行楼208</div>
+                                        <div>张长英</div>
+                                    </div>
+                                </td>
+                                <td rowspan="2" data-ksjc="1" data-jsjc="2" data-skxq="5" class="itemTd">
+                                    <!-- 跨二行，1到2，周五 -->
+                                    <div class="sjp-item">
+                                        <div><span>大学物理Ⅰ(2)-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>1周,4-13周,15周 1-2节</div>
+                                        <div>乐群楼(教一)114</div>
+                                        <div>傅美欢</div>
+                                    </div>
+                                </td>
+                                <!-- 周末的第一行单元格 -->
+                                <td rowspan="1" data-ksjc="1" data-jsjc="1" data-skxq="6" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="1" data-jsjc="1" data-skxq="7" class="itemTd"></td>
+                            </tr>
+                            <tr>
+                                <!-- 第二节整行单元格，只剩周末 -->
+                                <td class="jcTd">第二节</td>
+                                <td rowspan="1" data-ksjc="2" data-jsjc="2" data-skxq="6" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="2" data-jsjc="2" data-skxq="7" class="itemTd"></td>
+                            </tr>
+                            <tr>
+                                <!-- 第三节整行单元格 -->
+                                <td class="jcTd">第三节</td>
+                                <td rowspan="2" data-ksjc="3" data-jsjc="4" data-skxq="5" class="itemTd">
+                                    <!-- 周五三四节 -->
+                                    <div class="sjp-item">
+                                        <div><span>典型产品拆装测绘综合实训Ⅰ-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>14周 3-4节</div>
+                                        <div>G1躬行楼513</div>
+                                        <div>李萍萍</div>
+                                    </div>
+                                    <div class="sjp-item">
+                                        <div><span>大学英语Ⅰ(3)-03</span>
+                                            <!---->
+                                        </div>
+                                        <div>1周,4-12周,15-16周 3-4节</div>
+                                        <div>乐群楼(教一)212</div>
+                                        <div>刘欣娟</div>
+                                    </div>
+                                </td>
+                                <td rowspan="1" data-ksjc="3" data-jsjc="3" data-skxq="6" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="3" data-jsjc="3" data-skxq="7" class="itemTd"></td>
+                            </tr>
+                            <tr>
+                                <td class="jcTd">第四节</td>
+                                <td rowspan="1" data-ksjc="4" data-jsjc="4" data-skxq="6" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="4" data-jsjc="4" data-skxq="7" class="itemTd"></td>
+                            </tr>
+                            <tr>
+                                <td class="jcTd">第五节</td>
+                                <td rowspan="2" data-ksjc="5" data-jsjc="6" data-skxq="3" class="itemTd">
+                                    <!-- 周三五六节 -->
+                                    <div class="sjp-item">
+                                        <div><span>马克思主义基本原理概论-02</span>
+                                            <!---->
+                                        </div>
+                                        <div>2-4周 5-6节</div>
+                                        <div></div>
+                                        <div>周秋明</div>
+                                    </div>
+                                </td>
+                                <td rowspan="2" data-ksjc="5" data-jsjc="6" data-skxq="4" class="itemTd">
+                                    <!-- 周四五六节 -->
+                                    <div class="sjp-item">
+                                        <div><span>工程数学Ⅰ-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>1-4周,6-11周,15-16周 5-6节</div>
+                                        <div>乐群楼(教一)J202</div>
+                                        <div>王书营</div>
+                                    </div>
+                                </td>
+                                <td rowspan="1" data-ksjc="5" data-jsjc="5" data-skxq="5" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="5" data-jsjc="5" data-skxq="6" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="5" data-jsjc="5" data-skxq="7" class="itemTd"></td>
+                            </tr>
+                            <tr>
+                                <td class="jcTd">第六节</td>
+                                <td rowspan="1" data-ksjc="6" data-jsjc="6" data-skxq="5" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="6" data-jsjc="6" data-skxq="6" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="6" data-jsjc="6" data-skxq="7" class="itemTd"></td>
+                            </tr>
+                            <tr>
+                                <td class="jcTd">第七节</td>
+                                <td rowspan="1" data-ksjc="7" data-jsjc="7" data-skxq="3" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="7" data-jsjc="7" data-skxq="4" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="7" data-jsjc="7" data-skxq="5" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="7" data-jsjc="7" data-skxq="6" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="7" data-jsjc="7" data-skxq="7" class="itemTd"></td>
+                            </tr>
+                            <tr>
+                                <td class="jcTd">第八节</td>
+                                <td rowspan="1" data-ksjc="8" data-jsjc="8" data-skxq="3" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="8" data-jsjc="8" data-skxq="4" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="8" data-jsjc="8" data-skxq="5" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="8" data-jsjc="8" data-skxq="6" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="8" data-jsjc="8" data-skxq="7" class="itemTd"></td>
+                            </tr>
+                            <tr>
+                                <td class="jcTd">第九节</td>
+                                <td rowspan="1" data-ksjc="9" data-jsjc="9" data-skxq="1" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="9" data-jsjc="9" data-skxq="2" class="itemTd"></td>
+                                <td rowspan="2" data-ksjc="9" data-jsjc="10" data-skxq="3" class="itemTd">
+                                    <!-- 周三九十节 -->
+                                    <div class="sjp-item">
+                                        <div><span>工程数学Ⅰ-01</span>
+                                            <!---->
+                                        </div>
+                                        <div>1-4周,6-11周,15-16周 9-10节</div>
+                                        <div>乐群楼(教一)J202</div>
+                                        <div>王书营</div>
+                                    </div>
+                                </td>
+                                <td rowspan="1" data-ksjc="9" data-jsjc="9" data-skxq="4" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="9" data-jsjc="9" data-skxq="5" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="9" data-jsjc="9" data-skxq="6" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="9" data-jsjc="9" data-skxq="7" class="itemTd"></td>
+                            </tr>
+                            <tr>
+                                <td class="jcTd">第十节</td>
+                                <td rowspan="1" data-ksjc="10" data-jsjc="10" data-skxq="1" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="10" data-jsjc="10" data-skxq="2" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="10" data-jsjc="10" data-skxq="4" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="10" data-jsjc="10" data-skxq="5" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="10" data-jsjc="10" data-skxq="6" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="10" data-jsjc="10" data-skxq="7" class="itemTd"></td>
+                            </tr>
+                            <tr>
+                                <td class="jcTd">第十一节</td>
+                                <td rowspan="1" data-ksjc="11" data-jsjc="11" data-skxq="1" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="11" data-jsjc="11" data-skxq="2" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="11" data-jsjc="11" data-skxq="3" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="11" data-jsjc="11" data-skxq="4" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="11" data-jsjc="11" data-skxq="5" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="11" data-jsjc="11" data-skxq="6" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="11" data-jsjc="11" data-skxq="7" class="itemTd"></td>
+                            </tr>
+                            <tr>
+                                <td class="jcTd">第十二节</td>
+                                <td rowspan="1" data-ksjc="12" data-jsjc="12" data-skxq="1" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="12" data-jsjc="12" data-skxq="2" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="12" data-jsjc="12" data-skxq="3" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="12" data-jsjc="12" data-skxq="4" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="12" data-jsjc="12" data-skxq="5" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="12" data-jsjc="12" data-skxq="6" class="itemTd"></td>
+                                <td rowspan="1" data-ksjc="12" data-jsjc="12" data-skxq="7" class="itemTd"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer class="cv-page-footer">
+            <div class="cv-copyright"></div>
+        </footer>
+    </div>
+    
+    <!-- <script src="getClass.js"></script> -->
+
+    <script src="provider.js"></script>
+
+</body>
+
+</html>
