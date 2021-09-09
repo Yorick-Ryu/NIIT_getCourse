@@ -12,7 +12,16 @@ ____
   
 [getClass.js](/NIIT_getCoursegetClass.js)是可运行在本地的核心代码，是[Paser.js](/NIIT_getCourse/Paser.js)的基础<br>
   
-[小爱课程表开发者文档：](https://ldtu0m3md0.feishu.cn/docs/doccnhZPl8KnswEthRXUz8ivnhb#)<br>
+[小爱课程表开发者文档](https://ldtu0m3md0.feishu.cn/docs/doccnhZPl8KnswEthRXUz8ivnhb#)<br>  
+
+![alt](/pic/IMG_20210909_231826.jpg "WeChat:Alan_Trust")
+<img src="/pic/IMG_20210909_231826.jpg" width="400" height="200" alt="ME"/><br/>
+
+<img src="https://github.com/仓库名/项目名/blob/master/m/20200424230936851.png" width="200" height="200" alt="抖音小程序"/><br/>
+<img src="https://github.com/仓库名/项目名/blob/master/m/20200424230237910.jpg" width="200" height="200" alt="微信小程序"/><br/>
+<img src="https://github.com/仓库名/项目名/blob/master/m/20200424225428179.jpg" width="200"  alt="支付宝小程序"/><br/>
+//其他样式的设置雷同...
+
 
 ***
 # 2.联系作者：<br>
