@@ -30,9 +30,11 @@ function scheduleHtmlParser(html) {
         }
 
         let weekArray = [];
+        
+        //以逗号为界分割周
         str.split(",").forEach((element) => {
             if (!element.includes("-")) {
-                // 没有 ‘-’ 表明只有一个数
+                // 没有 “-” 表明只有一个数
                 weekArray.push(parseInt(element))
             } else {
                 // 包含 “-” 则是区间
@@ -50,11 +52,11 @@ function scheduleHtmlParser(html) {
                 }
             }
         })
-         console.log(weekArray);
+        //console.log(weekArray);
         return weekArray
     }
 
-    //weeks格式化方法
+    //weeks格式化方法（不分单双周可用，此函数并没有被调用）
     function weekStr2IntList(week) {
 
         let weeks = [];
@@ -122,30 +124,27 @@ function scheduleHtmlParser(html) {
 
         //console.log(name);
 
-        //if(name = )
-
         //获取周次和节数
-
         let weeksAndsections = curriculum[i].children[2].children[0].data;//这里可以换写法nextchildren...
-
+        
+        //以“ ”分割周和节
         let ws = weeksAndsections.split(' ');
 
         let week = ws[0];
 
         let sections = ws[1];
 
-        //获取教室位置
+        //获取教室位置，先判断有没有教室
         if (curriculum[i].children[4].children.length == 0) {
             position = '';
         } else if (curriculum[i].children[4].children.length != 0) {
             position = curriculum[i].children[4].children[0].data;
         }
 
-        //获取授课教师
+        //获取授课教师，先判断有没有教师
         if (curriculum[i].children[6].children.length == 0) {
             teacher = '';
         } else {
-
             teacher = curriculum[i].children[6].children[0].data;
         }
 
@@ -155,9 +154,9 @@ function scheduleHtmlParser(html) {
             name: name,
             position: position,
             teacher: teacher,
-            weeks: getWeeksArray(week),//这里调用weeks格式化方法
+            weeks: getWeeksArray(week),//这里调用单双周函数
             day: parseInt(day),
-            sections: sectionsStr2IntList(sections),
+            sections: sectionsStr2IntList(sections),//调用节次处理函数
         };
 
         result.push(course);
@@ -168,6 +167,7 @@ function scheduleHtmlParser(html) {
     return {
         courseInfos: result,
         sectionTimes: [
+            //南工标准作息表http://www.niit.edu.cn/
             { section: 1, startTime: "08:00", endTime: "08:45" },
             { section: 2, startTime: "08:55", endTime: "09:40" },
             { section: 3, startTime: "10:00", endTime: "10:45" },
