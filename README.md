@@ -1,5 +1,5 @@
 # NIIT_getCourse
-NIIT课程导入小爱课程表
+NIIT课程导入小爱课程表·\n
 Paser98.js是核心代码，在小米服务器端运行，由getClass改进而来，运行在有cheerio环境的服务器
 Cheerio官方文档翻译：https://juejin.cn/post/6844904135767097352#heading-37
 curriculum.HTML是机电2014班的课表HTML本地文件，配合getclass.js测试用
