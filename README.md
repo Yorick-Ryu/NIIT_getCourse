@@ -4,7 +4,7 @@ ____
 ------
 [Paser.js](/NIIT_getCourse/Paser.js)是核心代码，在小米服务器端运行<br>
   
-由[getClass.js](/NIIT_getCoursegetClass.js)改进而来运行在有cheerio环境的服务器<br>
+由[getClass.js](/NIIT_getCoursegetClass.js)改进而来运行在有[cheerio](https://cheerio.js.org/)环境的服务器<br>
   
 [Cheerio官方文档翻译](https://juejin.cn/post/6844904135767097352#heading-37 "悬停显示")<br>
   
@@ -19,3 +19,14 @@ ____
 # 2.联系作者：<br>
 
 :smile:[QQ2524964538](http://wpa.qq.com/msgrd?v=3&uin=2524964538&site=qq&menu=yes<br>) 点击跳转
+  
+:+1:Wechat；<img src="/pic/Screenshot_2021_0910_000914.png" width="600" height="470" alt="ME"/><br/>
+_____
+# 3.友情链接
+[南工院编程在线](http://niit.codehouse.cc/)
+  
+[Java基础](https://www.bilibili.com/video/BV15W411R7nS) （虽然这个脚本没用到Java，但还是建议先学Java:exclamation:）
+
+[Javascript速成课](https://www.bilibili.com/video/BV1jE411T7ya)（强烈推荐Java:exclamation:）
+    
+  
