@@ -20,7 +20,7 @@ ____
 
 :smile:[QQ2524964538](http://wpa.qq.com/msgrd?v=3&uin=2524964538&site=qq&menu=yes<br>) 点击跳转
   
-:+1:Wechat；<img src="/pic/Screenshot_2021_0910_000914.png" width="200" height="200" alt="ME"/><br/>
+:+1:Wechat：<img src="/pic/Screenshot_2021_0910_000914.png" width="200" height="200" alt="ME"/><br/>
 _____
 # 3.友情链接
 [南工院编程在线](http://niit.codehouse.cc/)
