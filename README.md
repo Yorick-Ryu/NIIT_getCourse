@@ -15,7 +15,6 @@ ____
 [小爱课程表开发者文档](https://ldtu0m3md0.feishu.cn/docs/doccnhZPl8KnswEthRXUz8ivnhb#)<br>  
   
 <img src="/pic/IMG_20210909_231826.jpg" width="600" height="470" alt="ME"/><br/>
-
 ***
 # 2.联系作者：<br>
 
