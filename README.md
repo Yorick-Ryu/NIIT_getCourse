@@ -1,4 +1,4 @@
-# NIIT课程导入小爱课程表
+# NIIT课程导入小爱课程表(此分支已废弃)
 ____
 1.代码内容介绍  
 ------
@@ -6,7 +6,7 @@ ____
   
 由[getClass.js](/NIIT_getCoursegetClass.js)改进而来运行在有[cheerio](https://cheerio.js.org/)环境的服务器<br>
   
-[Cheerio官方文档翻译](https://juejin.cn/post/6844904135767097352#heading-37 "悬停显示")<br>
+[Cheerio官方文档翻译](https://juejin.cn/post/6844904135767097352#heading-37)<br>
   
 [curriculum.HTML](/NIIT_getCourse/curriculum.HTML)是`机电2014班`的课表HTML本地文件，配合[getClass.js](/NIIT_getCoursegetClass.js)测试用<br>
   
@@ -14,7 +14,7 @@ ____
   
 [小爱课程表开发者文档](https://ldtu0m3md0.feishu.cn/docs/doccnhZPl8KnswEthRXUz8ivnhb#)<br>  
   
-<img src="/pic/IMG_20210909_231826.jpg" width="600" height="470" alt="ME"/><br/>
+<img src="/pic/coder.png" width="600" height="470" alt="ME"/><br/>
 ***
 # 2.联系作者：<br>
 
@@ -28,5 +28,3 @@ _____
 [Java基础](https://www.bilibili.com/video/BV15W411R7nS) （虽然这个脚本没用到Java，但还是建议先学Java:exclamation:）
 
 [Javascript速成课](https://www.bilibili.com/video/BV1jE411T7ya)（强烈推荐Java:exclamation:）
-    
-  
