@@ -34,4 +34,4 @@
   
 :+1: Wechat：
 
-<img src="./pic/wechat.JPG" width="200" height="200" alt="ME"/>
+<img src="./pic/wechat.JPG" width="400" height="500" alt="ME"/>
