@@ -1,8 +1,11 @@
 async function scheduleHtmlProvider() {
+    // 加载小爱组件
     await loadTool('AIScheduleTools')
     url = 'http://jwxt.niit.edu.cn/jwapp/sys/wdkb/modules/xskcb/cxxszhxqkb.do'
+    // 获取cookie和UA
     const cookie = document.cookie
     const UA = navigator.userAgent
+    // 计算学期字段
     const d = new Date()
     var year = d.getFullYear()
     const month = d.getMonth() + 1
@@ -21,7 +24,6 @@ async function scheduleHtmlProvider() {
                 mode: 'no-cors',
                 credentials: "include",
                 "Access-Control-Allow-Origin": "*",
-                // "Access-Control-Allow-Credentials": true,
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
                     "Accept": "application/json, text/javascript, */*; q=0.01",
